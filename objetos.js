@@ -6,3 +6,7 @@ const clientes = {
 }
 
 console.log(clientes);
+console.log(clientes.nome); // nome do objeto + atributo. Notação de ponto
+console.log(`Minha idade é ${clientes.idade} e meu nome é ${clientes.nome}`);
+
+console.log(clientes.cpf.substring(0, 3)); // para exibir para segurança só os primeiros 3 números
